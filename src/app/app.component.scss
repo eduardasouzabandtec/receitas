@@ -1,0 +1,35 @@
+.conteiner__categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 80px;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 80px;
+
+    }
+
+    &-card {
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        :nth-child(n) {
+            margin-right: 40px;
+        }
+
+        :last-child {
+            margin-right: 0;
+        }
+
+    }
+
+}
+
+.conteiner__simple-header {
+    text-align: center;
+}

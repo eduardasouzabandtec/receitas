@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 40px 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    :nth-child(2) {
+        width: 30%;
+    }
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 133.97px
+    }
+}
