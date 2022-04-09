@@ -1,7 +1,8 @@
 # SiteReceitas
- 
+ ![image](https://user-images.githubusercontent.com/53790644/162558634-d541929e-0d4c-476d-905b-c28b3f2073c8.png)
 
 
+Reference: https://www.figma.com/@flowbase
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
 
 ## Development server
