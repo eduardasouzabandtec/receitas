@@ -9,6 +9,12 @@ import { NavComponent } from './header/nav/nav.component';
 import { IconComponent } from './icon/icon.component';
 import { CardComponent } from './card/card.component';
 import { ButtonComponent } from './button/button.component';
+import { CardRecipesComponent } from './card-recipes/card-recipes.component';
+import { CardAdComponent } from './card-ad/card-ad.component';
+import { TimeGroupComponent } from './time-group/time-group.component';
+import { ContainerComponent } from './container/container.component';
+import { LearnMoreComponent } from './learn-more/learn-more.component';
+import { TitleDivisionComponent } from './title-division/title-division.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { ButtonComponent } from './button/button.component';
     NavComponent,
     IconComponent,
     CardComponent,
-    ButtonComponent
+    ButtonComponent,
+    CardRecipesComponent,
+    CardAdComponent,
+    TimeGroupComponent,
+    ContainerComponent,
+    LearnMoreComponent,
+    TitleDivisionComponent
   ],
   imports: [
     BrowserModule,

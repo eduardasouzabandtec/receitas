@@ -14,8 +14,23 @@
 <!-- Card Simple tasty -->
 
 <section>
-    <div class="conteiner__simple-header">
-        <h2 class="text-section">Simple and tasty recipes</h2>
-        <p class="text-min">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+   <app-title-division [datatitle]="dataTitleRecipe"></app-title-division>
+</section>
+
+
+<!-- recipes -->
+<section class="conteiner__recipes">
+    <div class="conteiner__recipes-item" *ngFor=" let item of dataRecipes; index as i" >
+        <app-card-recipes [recipes]="item"></app-card-recipes>
+        <app-card-ad *ngIf="i == 4"></app-card-ad>
     </div>
 </section>
+
+<!-- Learn More -->
+
+<app-learn-more></app-learn-more>
+
+<!-- criar o component -->
+<section>
+    <app-title-division [datatitle]="dataTitleInsta"></app-title-division>
+ </section>

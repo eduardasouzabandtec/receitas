@@ -1,0 +1,14 @@
+
+<app-container>
+    <div class="conteiner__card">
+        <div class="conteiner__card-image" [ngStyle]="{'background-image': recipes.urlImage }" (click)="toggleFavorite()">
+            <app-icon class="icon" [ismedium]="isMedium" srcicon="{{ recipes.urlFavorite }}"></app-icon>
+        </div>
+        <div class="conteiner__card-footer">
+            <p class="text-decription-recipes">
+                {{ recipes.text }}
+            </p>
+            <app-time-group [datatime]="timeGroup"></app-time-group>
+        </div>
+    </div>
+</app-container>

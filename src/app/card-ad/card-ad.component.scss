@@ -1,0 +1,24 @@
+.conteiner_ad {
+    width: 400px;
+    height: 434px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-background {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        background-image: url('../../assets/img/ad.png');
+        
+        width: 100%;
+        height: 100%;
+        :nth-child(2) {
+            margin-bottom: 34px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+}

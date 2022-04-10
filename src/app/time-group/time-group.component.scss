@@ -1,0 +1,20 @@
+.conteiner__timegroup{
+    margin: 24px;
+    display: flex;
+
+    &-first{
+        margin-right: 24px;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        width: 139px;
+        height: 40px;
+    }
+}
+
+.border {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+.conteiner__card {
+    width: 400px;
+    height: 434px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    &-image {
+        width: 368px;
+        height: 250px;
+        display: flex;
+        justify-content: flex-end;
+
+        .icon {
+            margin: 20px 20px 0 0;
+        }
+    }
+    &-footer {
+        :nth-child(1){
+            margin: 24px;
+        }
+    }
+}

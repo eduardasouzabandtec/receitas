@@ -11,6 +11,7 @@ export class IconComponent implements OnInit {
 
   @Input() srcicon:string = '';
   @Input() islitle:boolean = true;
+  @Input() ismedium: boolean = false;
   ngOnInit(): void {
   }
 

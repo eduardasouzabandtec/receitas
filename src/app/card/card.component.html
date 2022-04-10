@@ -1,4 +1,6 @@
-<div class="card" [ngClass]="{'red': card.type == 'red','green': card.type == 'green','yellow': card.type == 'yellow'}">
-    <app-icon [islitle]="isLitle" srcicon="{{ card.src }}"></app-icon>
-    <p class="text-description">{{ card.title }}</p>
-</div>
+<app-container [backgroundcolor]="card.type">
+    <div class="card">
+        <app-icon [islitle]="isLitle" srcicon="{{ card.src }}"></app-icon>
+        <p class="text-description">{{ card.title }}</p>
+    </div>
+</app-container>
