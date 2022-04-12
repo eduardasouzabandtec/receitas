@@ -15,6 +15,8 @@ import { TimeGroupComponent } from './time-group/time-group.component';
 import { ContainerComponent } from './container/container.component';
 import { LearnMoreComponent } from './learn-more/learn-more.component';
 import { TitleDivisionComponent } from './title-division/title-division.component';
+import { PostInstagramComponent } from './post-instagram/post-instagram.component';
+import { PostComponent } from './post-instagram/post/post.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { TitleDivisionComponent } from './title-division/title-division.componen
     TimeGroupComponent,
     ContainerComponent,
     LearnMoreComponent,
-    TitleDivisionComponent
+    TitleDivisionComponent,
+    PostInstagramComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

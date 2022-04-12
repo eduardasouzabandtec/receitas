@@ -1,1 +1,1 @@
-<img [ngClass]="{'pequeno': islitle, 'grande': !islitle, 'medium': ismedium}"src="{{ srcicon }}" alt="">
+<img [ngClass]="{'pequeno': type == 'pequeno', 'grande': type == 'grande', 'medium': type == 'medium','mini': type == 'mini', 'rectangle': type == 'rectangle', 'userIcon': type == 'userIcon'}"src="{{ srcicon }}" alt="">

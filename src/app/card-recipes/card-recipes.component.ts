@@ -17,7 +17,6 @@ export interface CardRecive {
 export class CardRecipesComponent implements OnChanges {
 
   constructor() { }
-  isMedium: boolean = true;
   isFavorite: boolean = false;
   timeGroup: TimeGroup = {
     time: '',

@@ -1,0 +1,48 @@
+<div class="container__post">
+    <div class="container__post-header">
+        <div class="user">
+            <app-icon class="icon-user" type="pequeno" srcicon="../../../assets/img/userInsta.svg"></app-icon>
+            <div>
+                <span class="text-sfProText sfProText">Foodieland.</span>
+                <app-icon type="mini" srcicon="../../../assets/img/OfficialIcon.svg"></app-icon>
+                <p class="subtext-sfProText sfProText">Tokyo, Japan</p>
+            </div>
+        </div>
+        <div>
+            <app-icon class="icon-more" type="rectangle" srcicon="../../../assets/img/MoreIcon.svg"></app-icon>
+        </div>
+    </div>
+
+    <div class="container__post-image"  [ngStyle]="{'background-image': 'url(../../../assets/img/post1.png)'}">
+        <div>
+            1/3
+        </div>
+    </div>
+
+    <div class="container__post-liked">
+        <div class="react">
+            <app-icon type="pequeno" srcicon="../../../assets/img/Like.svg" > </app-icon>
+            <app-icon type="pequeno" srcicon="../../../assets/img/Comment.svg" > </app-icon>
+            <app-icon type="pequeno" srcicon="../../../assets/img/Messanger.svg" > </app-icon>
+        </div>
+        <div class="pagination">
+            <app-icon type="pequeno" srcicon="../../../assets/img/Pagination.svg" > </app-icon>
+            <app-icon type="pequeno" srcicon="../../../assets/img/Save.svg" > </app-icon>
+        </div>
+    </div>
+
+    <div class="container__post-discription">
+        <div>
+            <app-icon type="userIcon" srcicon="../../../assets/img/userLiked.svg"></app-icon>
+            <p class="text-sfProText">Liked by <span class="bold">craig_love</span> and <span class="bold">44,686</span> </p>
+        </div>
+        <p class="text-sfProText" >
+            <span class="bold">Foodieland</span>. The vegetables dishes need to have certain vitamin for those people
+        </p>
+        <p class="subtext-sfProText grey">
+            September 19
+        </p>
+    </div>
+
+
+</div>

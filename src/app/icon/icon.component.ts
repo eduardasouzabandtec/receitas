@@ -10,8 +10,8 @@ export class IconComponent implements OnInit {
   constructor() { }
 
   @Input() srcicon:string = '';
-  @Input() islitle:boolean = true;
-  @Input() ismedium: boolean = false;
+  @Input() type: string = '';
+
   ngOnInit(): void {
   }
 

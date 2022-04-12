@@ -8,7 +8,6 @@ import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/cor
 export class CardComponent implements OnInit{
 
   constructor() { }
-  isLitle: boolean = false;
   @Input() card:any;
   
 
