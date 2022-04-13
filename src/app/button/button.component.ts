@@ -2,7 +2,8 @@ import { Component, Input, OnInit } from '@angular/core';
 
 export interface Button {
   text: string,
-  type:string
+  type:string,
+  icon?:string
 }
 @Component({
   selector: 'app-button',

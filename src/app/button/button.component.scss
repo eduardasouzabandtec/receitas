@@ -7,6 +7,9 @@ button {
     border: 0;
     border-radius: 16px;
     height: 60px;
+    :nth-of-type(1){
+        margin-left: 16.96px;
+    }
 }
 .blue {
     background-color: #E7FAFE;  
@@ -14,4 +17,10 @@ button {
 .black{
     background-color: black;
     color: white; 
+}
+.black-icon {
+    background-color: black;
+    color: white; 
+    display: flex;
+    align-items: center;
 }

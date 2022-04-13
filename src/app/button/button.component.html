@@ -1,3 +1,4 @@
-<button  [ngClass]="{'black': button.type == 'black','blue': button.type == 'blue'}">
+<button  [ngClass]="{'black': button.type == 'black','blue': button.type == 'blue', 'black-icon': button.type == 'black-icon'}">
     {{ button.text }}
+    <app-icon *ngIf="button.icon" [srcicon]="button.icon" type="button"></app-icon>
 </button>

@@ -1,8 +1,13 @@
 <app-container>
-    <app-title-division [datatitle]="title"></app-title-division>
+    <div  class="title">
+        <app-title-division [datatitle]="title"></app-title-division>
+    </div>
 
-    <div>
+    <div class="container__post-instagram">
         <!-- Integrar com api do Instagram -->
-       <app-post></app-post>
+       <app-post [datapost]="post" *ngFor="let post of post"></app-post>
+    </div>
+    <div class="button" >
+        <app-button [button]="dataButton" ></app-button>
     </div>
 </app-container>

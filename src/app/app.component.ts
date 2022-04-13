@@ -1,6 +1,7 @@
 import { Component, OnChanges, SimpleChanges } from '@angular/core';
 import { Button } from './button/button.component';
 import { CardRecive } from './card-recipes/card-recipes.component';
+import { PostIntagram } from './post-instagram/post/post.component';
 import { TitleDivision } from './title-division/title-division.component';
 
 @Component({
@@ -123,7 +124,56 @@ export class AppComponent implements OnChanges {
     title: 'Check out @foodieland on Instagram',
     subtitle: 'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim '
   }
-
+  dataPost: Array<PostIntagram> = [
+    {
+      userIcon: "../../../assets/img/userInsta.svg",
+      nameUser: "Foodieland.",
+      isVerificed: true,
+      localization: "Tokyo, Japan",
+      image: "../../../assets/img/post1.png",
+      numberImage: "1/3",
+      lastUserLiked:"craig_love",
+      numberLiked:"44,686",
+      subtitleImage:"The vegetables dishes need to have certain vitamin for those people",
+      dateImage:"September 19"
+    },
+    {
+      userIcon: "../../../assets/img/userInsta.svg",
+      nameUser: "Foodieland.",
+      isVerificed: true,
+      localization: "Tokyo, Japan",
+      image: "../../../assets/img/post2.png",
+      numberImage: "1/3",
+      lastUserLiked:"craig_love",
+      numberLiked:"44,686",
+      subtitleImage:"Sweet food can bring someon into happiness as long as they don’t eat to much",
+      dateImage:"September 19"
+    },
+    {
+      userIcon: "../../../assets/img/userInsta.svg",
+      nameUser: "Foodieland.",
+      isVerificed: true,
+      localization: "Tokyo, Japan",
+      image: "../../../assets/img/post3.png",
+      numberImage: "1/3",
+      lastUserLiked:"craig_love",
+      numberLiked:"44,686",
+      subtitleImage:"What are you doing before start cooking? prepare the  tools or ingredients?",
+      dateImage:"September 19"
+    },
+    {
+      userIcon: "../../../assets/img/userInsta.svg",
+      nameUser: "Foodieland.",
+      isVerificed: true,
+      localization: "Tokyo, Japan",
+      image: "../../../assets/img/post4.png",
+      numberImage: "1/3",
+      lastUserLiked:"craig_love",
+      numberLiked:"44,686",
+      subtitleImage:"Steak never be wrong, it’s suitable for you who want romantic dinner",
+      dateImage:"September 19"
+    },
+  ]
   ngOnChanges(changes: SimpleChanges): void {
     console.log('a')
   }
