@@ -1,0 +1,18 @@
+<app-header></app-header>
+<h1 class="text-section">
+    Contact us
+</h1>
+<section class="contact__conteiner">
+    <div class="contact__conteiner--image">
+        <app-container>
+            <img src="../../assets/img/contact-cozinheiro.png" alt="">
+        </app-container>
+
+    </div>
+    <div class="contact__conteiner--data">
+        <app-input class="filho"[dados]="item" *ngFor="let item of dadosInput"></app-input>
+        <div>
+            <app-button [button]="dadosButton"></app-button>
+        </div>
+    </div>
+</section>

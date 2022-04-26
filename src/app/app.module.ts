@@ -17,6 +17,12 @@ import { LearnMoreComponent } from './learn-more/learn-more.component';
 import { TitleDivisionComponent } from './title-division/title-division.component';
 import { PostInstagramComponent } from './post-instagram/post-instagram.component';
 import { PostComponent } from './post-instagram/post/post.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { PageHomeComponent } from './page-home/page-home.component';
+import { PageContactComponent } from './page-contact/page-contact.component';
+import { InputComponent } from './input/input.component';
+import { InputSelectComponent } from './input/input-select/input-select.component';
+import { InputTextAreaComponent } from './input/input-text-area/input-text-area.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +40,13 @@ import { PostComponent } from './post-instagram/post/post.component';
     LearnMoreComponent,
     TitleDivisionComponent,
     PostInstagramComponent,
-    PostComponent
+    PostComponent,
+    RecipesComponent,
+    PageHomeComponent,
+    PageContactComponent,
+    InputComponent,
+    InputSelectComponent,
+    InputTextAreaComponent
   ],
   imports: [
     BrowserModule,

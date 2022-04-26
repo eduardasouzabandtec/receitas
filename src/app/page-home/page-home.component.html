@@ -1,0 +1,37 @@
+<app-header></app-header>
+
+<!-- categorias -->
+<section class="conteiner__categories">
+    <div class="conteiner__categories-header">
+        <h2 class="text-section">Categories</h2>
+        <app-button [button]="dataButton"></app-button>
+    </div>
+    <div class="conteiner__categories-card">
+        <app-card *ngFor="let item of cards" [card]="item"></app-card>
+    </div>
+</section>
+
+<!-- Card Simple tasty -->
+
+<section>
+   <app-title-division [datatitle]="dataTitleRecipe"></app-title-division>
+</section>
+
+
+<!-- recipes -->
+<section class="conteiner__recipes">
+    <div class="conteiner__recipes-item" *ngFor=" let item of dataRecipes; index as i" >
+        <app-card-recipes [recipes]="item"></app-card-recipes>
+        <app-card-ad *ngIf="i == 4"></app-card-ad>
+    </div>
+</section>
+
+<!-- Learn More -->
+
+<app-learn-more></app-learn-more>
+
+<!-- criar o component -->
+<app-post-instagram [title]="dataTitleInsta" [post]="dataPost"></app-post-instagram>
+
+<app-recipes [recipes]="dataRecipes" color="none"></app-recipes>
+

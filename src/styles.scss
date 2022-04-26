@@ -75,14 +75,25 @@ body {
     letter-spacing: -0.0773333px;
     color: #262626;
 }
-.sfProText{
+
+.sfProText {
     font-family: 'SF Pro Text';
     font-style: normal;
     color: #262626;
 }
-.subtext-sfProText{
+
+.subtext-sfProText {
     font-weight: 400;
     font-size: 8.50667px;
     line-height: 10px;
     letter-spacing: 0.0541333px;
+}
+
+.text_input {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
 }

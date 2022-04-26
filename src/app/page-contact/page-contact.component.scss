@@ -1,0 +1,30 @@
+h1{
+    margin: 80px 0px;
+    text-align: center;
+}
+.contact__conteiner {
+    display: flex;
+    &--image {
+        width: 350px;
+        height: 472px;
+    }
+    &--data {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 37px;
+        :nth-of-type(even) {
+            margin-left: 40px;
+        }
+        .filho {
+            width: 47%;
+        }
+        :nth-last-child(2) {
+            width: 100%;
+            margin-bottom: 48px;
+        }
+       :last-child{
+           width: 180px;
+       }
+    }
+}

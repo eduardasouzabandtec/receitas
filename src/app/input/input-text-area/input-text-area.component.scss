@@ -1,0 +1,15 @@
+.textarea__container {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-top: 12px;
+
+    textarea {
+        width: 100%;
+        resize: none;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        padding: 20px 0px 0 20px;
+    }
+}
