@@ -1,5 +1,12 @@
 # SiteReceitas
- ![image](https://user-images.githubusercontent.com/53790644/162558634-d541929e-0d4c-476d-905b-c28b3f2073c8.png)
+![image](https://user-images.githubusercontent.com/53790644/165208089-35f7200e-5a4d-4b26-a235-dfdf8a8a00bd.png)
+
+ ![image](https://user-images.githubusercontent.com/53790644/165208026-d1ff3ad3-1521-47c4-9357-871549f9ec4c.png)
+ ![image](https://user-images.githubusercontent.com/53790644/165208129-3845b4f1-2cc2-4359-a124-a44a65392784.png)
+![image](https://user-images.githubusercontent.com/53790644/165208152-61e5bf01-f6bc-4041-83e1-847bd9f02504.png)
+![image](https://user-images.githubusercontent.com/53790644/165208181-e6a2063f-9c8c-4c2c-91a5-c8d05e891eb6.png)
+
+
 
 
 Reference: https://www.figma.com/@flowbase
