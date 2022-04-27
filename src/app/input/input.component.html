@@ -1,6 +1,6 @@
 <section class="input__container">
     <label class="text_input text-decription-recipes-info">{{dados.name}}
-        <input class="text-decription-recipes-info" *ngIf="!dados.isSelect && !dados.isTextArea" type="text" placeholder="{{dados.placeholder}}">
+        <input class="text-decription-recipes-info"  [ngClass]="{'full': !dados.name}" *ngIf="!dados.isSelect && !dados.isTextArea" type="text" placeholder="{{dados.placeholder}}">
         <app-input-select *ngIf="dados.isSelect" [dadosselect]="dados"></app-input-select>
         <app-input-text-area *ngIf="dados.isTextArea" [dados]="dados"></app-input-text-area>
     </label>

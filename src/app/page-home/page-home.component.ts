@@ -1,6 +1,7 @@
 import { Component,OnInit, OnChanges, SimpleChanges } from '@angular/core';
 import { Button } from '../button/button.component';
 import { CardRecive } from '../card-recipes/card-recipes.component';
+import { DataInput } from '../input/input.component';
 import { PostIntagram } from '../post-instagram/post/post.component';
 import { TitleDivision } from '../title-division/title-division.component';
 @Component({
@@ -178,6 +179,14 @@ export class PageHomeComponent implements OnInit, OnChanges {
       dateImage:"September 19"
     },
   ]
+
+  dataInputInbox: DataInput = {
+    placeholder: "Your email address..."
+  }
+  dataButtonInbox: Button ={
+    text:"Subscribe",
+    type: "black"
+  }
   ngOnChanges(changes: SimpleChanges): void {
     console.log('a')
   }

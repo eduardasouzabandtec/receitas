@@ -1,5 +1,6 @@
 .input__container {
- margin-bottom: 24px;
+    margin-bottom: 24px;
+
     label {
         display: flex;
         flex-direction: column;
@@ -10,7 +11,19 @@
             border-radius: 16px;
             border: 1px solid rgba(0, 0, 0, 0.1);
             padding: 18px 0 18px 20px;
+
+            &:focus {
+                box-shadow: 0 0 0 0;
+                border: 0 none;
+                outline: 0;
+            }
         }
     }
 
+}
+
+.full{
+    box-shadow: 0 0 0 0;
+    border: 0 none !important;
+    outline: 0;
 }

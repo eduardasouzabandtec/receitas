@@ -23,6 +23,7 @@ import { PageContactComponent } from './page-contact/page-contact.component';
 import { InputComponent } from './input/input.component';
 import { InputSelectComponent } from './input/input-select/input-select.component';
 import { InputTextAreaComponent } from './input/input-text-area/input-text-area.component';
+import { CardInboxComponent } from './card-inbox/card-inbox.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { InputTextAreaComponent } from './input/input-text-area/input-text-area.
     PageContactComponent,
     InputComponent,
     InputSelectComponent,
-    InputTextAreaComponent
+    InputTextAreaComponent,
+    CardInboxComponent
   ],
   imports: [
     BrowserModule,

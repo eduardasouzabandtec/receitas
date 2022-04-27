@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 export interface DataInput{
- name: string,
+ name?: string,
  placeholder?: string,
  isSelect?: boolean,
  isTextArea?: boolean,
