@@ -24,6 +24,7 @@ import { InputComponent } from './input/input.component';
 import { InputSelectComponent } from './input/input-select/input-select.component';
 import { InputTextAreaComponent } from './input/input-text-area/input-text-area.component';
 import { CardInboxComponent } from './card-inbox/card-inbox.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { CardInboxComponent } from './card-inbox/card-inbox.component';
     InputComponent,
     InputSelectComponent,
     InputTextAreaComponent,
-    CardInboxComponent
+    CardInboxComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

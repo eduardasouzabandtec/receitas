@@ -5,21 +5,27 @@
 
 
     .container__inbox {
+        width: 620px;
+        height: 282px;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 80px 0;
+        .text-inbox-center{
+            text-align: center;
+        }
 
         &-submit {
             background-color: white;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             height: 80px;
             padding: 10px;
             border-radius: 24px;
+            width: 480px;
             .button{
-                width: 91%;
+                width: 160px
             }
 
         }
@@ -31,4 +37,5 @@
         height: 40%;
 
     }
+    
 }

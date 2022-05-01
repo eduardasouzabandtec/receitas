@@ -1,0 +1,22 @@
+<section class="conteiner__footer">
+    <div class="conteiner__footer--first">
+        <div class="logo">
+            <app-logo></app-logo>
+            <p class="text-min">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
+        </div>
+        <div class="pages">
+            <app-nav [texts]="texts"></app-nav>
+        </div>
+
+    </div>
+    <div class="conteiner__footer--second">
+        <p class="text-footer">
+            © 2020 Flowbase. Powered by <span>
+                Webflow
+            </span>
+        </p>
+        <div>
+            <app-icon type="pequeno" [srcicon]="icon" *ngFor="let icon of icons"></app-icon>
+        </div>
+    </div>
+</section>
