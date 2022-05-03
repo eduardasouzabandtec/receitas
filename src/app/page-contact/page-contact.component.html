@@ -10,9 +10,21 @@
 
     </div>
     <div class="contact__conteiner--data">
-        <app-input class="filho"[dados]="item" *ngFor="let item of dadosInput"></app-input>
+        <app-input class="filho" [dados]="item" *ngFor="let item of dadosInput"></app-input>
         <div>
             <app-button [button]="dadosButton"></app-button>
         </div>
     </div>
+</section>
+
+<section class="card-inbox">
+    <app-card-inbox [inputinbox]="dataInputInbox" [buttoninbox]="dataButtonInbox"></app-card-inbox>
+</section>
+
+<section>
+    <app-recipes [recipes]="dataRecipes" color="none"></app-recipes>
+</section>
+
+<section class="footer">
+    <app-footer></app-footer>
 </section>

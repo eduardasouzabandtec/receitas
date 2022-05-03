@@ -22,7 +22,7 @@ export class CardRecipesComponent implements OnChanges {
     time: '',
     group: ''
   }
-  
+
   @Input() recipes: CardRecive = {
     isFavorite: false,
     urlFavorite: '',
@@ -32,13 +32,12 @@ export class CardRecipesComponent implements OnChanges {
     group: '',
   }
   ngOnChanges(changes: SimpleChanges): void {
-    this.timeGroup = { time : this.recipes.time, group: this.recipes.group}
+    this.timeGroup = { time: this.recipes.time, group: this.recipes.group }
   }
 
   toggleFavorite(): void {
     this.recipes.isFavorite = !this.recipes.isFavorite;
-    this.recipes.urlFavorite = this.recipes.isFavorite? '../../assets/img/heart.png' : '../../assets/img/noHeart.png'
-
+    this.recipes.urlFavorite = this.recipes.isFavorite ? '../../assets/img/heart.png' : '../../assets/img/noHeart.png'
   }
 
 }

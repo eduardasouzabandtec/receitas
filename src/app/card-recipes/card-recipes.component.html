@@ -1,7 +1,7 @@
-
 <app-container backgroundcolor="">
     <div class="conteiner__card">
-        <div class="conteiner__card-image" [ngStyle]="{'background-image': recipes.urlImage }" (click)="toggleFavorite()">
+        <div class="conteiner__card-image" [ngStyle]="{'background-image': recipes.urlImage }"
+            (click)="toggleFavorite()">
             <app-icon class="icon" type="medium" srcicon="{{ recipes.urlFavorite }}"></app-icon>
         </div>
         <div class="conteiner__card-footer">

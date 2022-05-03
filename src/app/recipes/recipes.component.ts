@@ -9,6 +9,7 @@ import { CardRecive } from '../card-recipes/card-recipes.component';
 export class RecipesComponent implements OnInit {
 
   @Input() recipes: Array<CardRecive> = [];
+  @Input() titulo: string = '';
   @Input() color: string = '';
   constructor() { }
 

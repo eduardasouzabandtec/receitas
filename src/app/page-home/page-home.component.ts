@@ -183,7 +183,7 @@ export class PageHomeComponent implements OnInit, OnChanges {
   dataInputInbox: DataInput = {
     placeholder: "Your email address..."
   }
-  dataButtonInbox: Button ={
+  dataButtonInbox: Button = {
     text:"Subscribe",
     type: "black"
   }

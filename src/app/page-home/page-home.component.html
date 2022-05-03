@@ -33,10 +33,12 @@
 <!-- criar o component -->
 <app-post-instagram [title]="dataTitleInsta" [post]="dataPost"></app-post-instagram>
 
-<app-recipes [recipes]="dataRecipes" color="none"></app-recipes>
+<app-recipes [recipes]="dataRecipes" titulo="true"color="none"></app-recipes>
 
 <section class="card-inbox">
     <app-card-inbox [inputinbox]="dataInputInbox" [buttoninbox]="dataButtonInbox"></app-card-inbox>
 </section>
 
-<app-footer></app-footer>
+<section class="footer">
+    <app-footer></app-footer>
+</section>

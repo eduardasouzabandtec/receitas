@@ -3,26 +3,44 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        ;
 
 
         .logo {
             width: 400px;
             height: 74px;
+            padding-bottom: 48px;
+            p{
+                margin-top: 18px;
+            }
         }
+
         .pages {
             width: 400px;
             height: 19px;
-            
+
         }
     }
+
     &--second {
         height: 119px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        p {
+            margin-left: 30%;   
+        }
+
         span {
             color: #FF7967;
         }
+    }
+}
+
+.footer-icones {
+    :nth-child(2) {
+        margin: 0 40px;
     }
 }
